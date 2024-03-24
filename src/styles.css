@@ -1,0 +1,104 @@
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Inter', 'sans-serif';
+    margin: 0px;
+}
+
+#background-img {
+    background-image: url('Background.svg');
+    height: 1024px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    margin-bottom: 216px;
+}
+
+#traditional-nav-bar {
+    display: none;
+}
+
+#Artjunks-logo {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30.4px;
+    list-style: 37px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 32px auto auto 32px;
+}
+
+#Hamburger-menu {
+    width: 35px;
+    height: 35px;
+    margin: 32px 29px auto auto;
+}
+
+#Hero-sections {
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+    max-width: 600px;
+
+}
+
+#Hero-rectangle-element {
+    width: 90px;
+    height: 15px;
+}
+
+h1 {
+    font-family: 'Libre Caslon Display', 'sans-serif';
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 32px auto;
+}
+
+#hero-information {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 32px;
+}
+
+button {
+    width: 153px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    padding: 9px 28px 11px 27px;
+}
+
+
+h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 78px auto 78px 32px;
+}
+
+.news-card {
+    border: 
+}
+
+@media screen and (min-width: 576px) {}
+
+@media screen and (min-width:768px) {
+    #nav-bar {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 992px) {}
